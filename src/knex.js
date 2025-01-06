@@ -1,4 +1,4 @@
-import knex from "knex"
+import setupKnex from "knex"
 
 export const config = {
     client: 'mysql',
@@ -13,4 +13,4 @@ export const config = {
 }
 
 
-export const tknex = knex(config)
+export const knex = setupKnex(config)
