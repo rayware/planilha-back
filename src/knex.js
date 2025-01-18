@@ -7,7 +7,7 @@ export const config = {
       port: 3306,
       user: 'rayware',
       password: '1qa2ws3ed',
-      database: 'teste_db',
+      database: 'db_sistema',
     },
     useNullAsDefault: true,
 }
